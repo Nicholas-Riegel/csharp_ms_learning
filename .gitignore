@@ -1,0 +1,154 @@
+# Build Folders (you can customize the paths here)
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code files
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotNetCore
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Web Servers
+iisexpress/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+# Entity Framework
+*.edmx*
+*.tt
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Local History for Visual Studio
+.localhistory/
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# StyleCop
+*.StyleCop
+*.stylecop
+
+# Trace and debugger
+*.tlog
+*.log
+*.trace
+*.tt
+*.tp
+
+# Azure WebJobs
+App_Data/jobs/continuous/*
+App_Data/jobs/triggered/*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+Ehthumbs.db
+
+# Visual Studio 2019
+.vscode/
+.vscode/*
+.vscode/[Aa]ssets
+.vscode/*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated and build files
+*.log
+*.vspscc
+*.vssscc
+
+# Test results
+TestResults
+*.TestResult
+*.TestResult.*
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Secrets
+secrets.json
