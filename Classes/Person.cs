@@ -37,6 +37,8 @@ namespace Microsoft_videos.Classes
 
         private DateOnly? Birthdate { get; set; } = birthdate;
 
+        public List<Pet> Pets { get; set; } = [];
+
         public void Introduce(string to)
         {
             Console.WriteLine($"Hi {to}, I am {Name}. " + (Birthdate.HasValue ? $"My birthday is {Birthdate}." : ""));

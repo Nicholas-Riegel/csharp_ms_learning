@@ -119,12 +119,31 @@ int[] numQuery4 = [..numbers.Where(x => x % 2 == 0).OrderByDescending(x => x)];
 
 
 // CLASSES
-// Person John = new ("John", "Meresurmizesir");
-// var Mary = new Person("Mary", "Johnson", new DateOnly(1990, 1, 1));
+Person John = new ("John", "Meresurmizesir");
+var Mary = new Person("Mary", "Johnson", new DateOnly(1990, 1, 1));
+John.Pets.Add(new Dog("Fido"));
+John.Pets.Add(new Dog("Willy"));
 
-// List<Person> people = [John, Mary];
+// John.Pets[0].MakeSound();
+
+List<Person> people = [John, Mary];
 
 // foreach (var person in people)
 // {
 //     person.Introduce("everyone");
 // }
+
+// foreach ( var p in people)
+// {
+//     Console.WriteLine(p.Name);
+
+//     foreach (var pet in p.Pets)
+//     {
+//         Console.WriteLine(pet.ToString());
+//     }
+// }
+
+// var fido = (from pet in John.Pets where pet.Name == "Fido" select pet.Name).ToList();
+var fidoList = John.Pets.Where(pet => pet.Name == "Fido").ToList(); 
+var fido = fidoList[0];
+Console.WriteLine(fido.Name);
