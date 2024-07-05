@@ -16,9 +16,12 @@
 // };
 
 // With constructor
-var John = new Person("John", "Meresurmizesir");
-var Mary = new Person("Mary", "Meresurmizesir", new DateOnly(1990, 1, 1));
+Person John = new ("John", "Meresurmizesir");
+var Mary = new Person("Mary", "Johnson", new DateOnly(1990, 1, 1));
 
 List<Person> people = [John, Mary];
 
-John.Introduce("Mosh");
+foreach (var person in people)
+{
+    person.Introduce("everyone");
+}

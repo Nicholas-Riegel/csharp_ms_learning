@@ -27,7 +27,7 @@ namespace Microsoft_videos.Classes
     {
         private string? FirstName { get; set; } = firstName;
         private string? LastName { get; set; } = lastName;
-        private string Name
+        public string Name
         {
             get
             {
@@ -39,7 +39,7 @@ namespace Microsoft_videos.Classes
 
         public void Introduce(string to)
         {
-            Console.WriteLine($"Hi {to}, I am {Name}." + (Birthdate.HasValue ? $"My birthday is {Birthdate}." : ""));
+            Console.WriteLine($"Hi {to}, I am {Name}. " + (Birthdate.HasValue ? $"My birthday is {Birthdate}." : ""));
         }
     }
 }
